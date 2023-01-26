@@ -87,7 +87,7 @@
             <div class="col-lg-8 fv-row">
                 <select class="form-select form-control form-control-solid" aria-label="Default select example"
                     name="country" required>
-                    <option selected>Select a country...</option>
+                    <option selected value="">Select a country...</option>
                     <option value="1">Philippines</option>
                     <option value="2">China</option>
                     <option value="3">Malaysia</option>
@@ -100,7 +100,7 @@
             <div class="col-lg-8 fv-row">
                 <select class="form-select form-select-search form-control form-control-solid"
                     aria-label="Default select example" name="language" required>
-                    <option selected>Select a language...</option>
+                    <option selected value="">Select a language...</option>
                     <option value="1">English</option>
                     <option value="2">Tagalog</option>
                     <option value="3">Mandarin</option>
