@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baliwag eService System</title>
 
-    <link href="https://localhost/form_template/public/assets/plugins/global/plugins.bundle.css" rel="stylesheet"
+    <link href="https://localhost/bessy-forms/public/assets/plugins/global/plugins.bundle.css" rel="stylesheet"
         type="text/css">
-    <link href="https://localhost/form_template/public/assets/css/style.bundle.css" rel="stylesheet" type="text/css">
+    <link href="https://localhost/bessy-forms/public/assets/css/style.bundle.css" rel="stylesheet" type="text/css">
 
-    <link href="https://localhost/form_template/public/assets/css/icons.min.css" rel="stylesheet" type="text/css">
-    <link href="https://localhost/form_template/public/assets/plugins/custom/cropper/cropper.bundle.css"
+    <link href="https://localhost/bessy-forms/public/assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="https://localhost/bessy-forms/public/assets/plugins/custom/cropper/cropper.bundle.css"
         rel="stylesheet" type="text/css">
 
 
-    <link href="https://localhost/form_template/public/assets/css/my-custom.css" rel="stylesheet" type="text/css">
+    <link href="https://localhost/bessy-forms/public/assets/css/my-custom.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
