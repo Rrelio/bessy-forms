@@ -123,7 +123,8 @@
                     <span class="fw-semibold ps-2 fs-6">
                         Improvement
                     </span>
-                </label> <label class="form-check form-check-custom form-check-inline form-check-solid me-5">
+                </label> 
+                <label class="form-check form-check-custom form-check-inline form-check-solid me-5">
                     <input class="form-check-input" name="project_natureOthers" id="if-others" value="select_others"
                         onclick="javascript:ifOthers();" type="radio">
                     <span class="fw-semibold ps-2 fs-6">
