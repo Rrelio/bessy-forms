@@ -90,7 +90,7 @@
             APPLY LC/CZC?
             <div class="col-12">
                 <input type="checkbox"> Yes
-                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
                 <input type="checkbox"> No
             </div>
             <div>&emsp;If Yes, please answer the following:</div>
