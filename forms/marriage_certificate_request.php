@@ -14,9 +14,9 @@
         </div>
         <div class="ms-5">
             <!--=============================================== HEADER TITLE ===============================================-->
-            <h1 class="">Request for Certification of Birth</h1>
+            <h1 class="">Request for Certification of Marriage</h1>
             <span class="form-label text-muted">
-                Fill Up Form
+                Local Civil Registrar
             </span>
             <!--=========================================== END OF HEADER TITLE ============================================-->
         </div>
@@ -29,113 +29,102 @@
     <!--=============================================== PUT YOUR CODE INSIDE THIS =========================================-->
 
     <div class="row mb-6">
-        <label class="col-lg-4 col-form-label required fw-semibold fs-6">Full Name</label>
+        <label class="col-lg-4 col-form-label required fw-semibold fs-6">Name of Husband</label>
 
         <div class="col-lg-8">
             <div class="row">
                 <div class="col-lg-12 fv-row fv-plugins-icon-container">
-                    <input type="text" name="last_name" id="last-name"
-                        class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Last Name"
+                    <input type="text" name="husbands_first_name" id="husbands-first-name"
+                        class="form-control form-control-lg form-control-solid" placeholder="Husband's First Name" value="">
+                    <div class="fv-plugins-message-container invalid-feedback"></div>
+                </div>
+
+                <div class="col-lg-12 fv-row fv-plugins-icon-container">
+                    <input type="text" name="husbands_middle_name" id="husbands-middle-name"
+                        class="form-control form-control-lg form-control-solid" placeholder="Husband's Middle Name" value="">
+                    <div class="fv-plugins-message-container invalid-feedback"></div>
+                </div>
+
+                <div class="col-lg-12 fv-row fv-plugins-icon-container">
+                    <input type="text" name="husbands_last_name" id="husbands-last-name"
+                        class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Husband's Last Name"
                         value="">
                     <div class="fv-plugins-message-container invalid-feedback"></div>
                 </div>
 
-                <div class="col-lg-12 fv-row fv-plugins-icon-container">
-                    <input type="text" name="first_name" id="first-name"
-                        class="form-control form-control-lg form-control-solid" placeholder="First Name" value="">
-                    <div class="fv-plugins-message-container invalid-feedback"></div>
-                </div>
-                <div class="col-lg-12 fv-row fv-plugins-icon-container">
-                    <input type="text" name="middle_name" id="middle-name"
-                        class="form-control form-control-lg form-control-solid" placeholder="Middle Name" value="">
-                    <div class="fv-plugins-message-container invalid-feedback"></div>
-                </div>
             </div>
         </div>
     </div>
-    <hr>
+
     <div class="row mb-6">
-        <label class="col-lg-4 col-form-label required fw-semibold fs-6">Place of Birth</label>
+        <label class="col-lg-4 col-form-label required fw-semibold fs-6">Name of Wife</label>
+
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-12 fv-row fv-plugins-icon-container">
+                    <input type="text" name="wifes_first_name" id="wifes-first-name"
+                        class="form-control form-control-lg form-control-solid" placeholder="Wife's First Name" value="">
+                    <div class="fv-plugins-message-container invalid-feedback"></div>
+                </div>
+
+                <div class="col-lg-12 fv-row fv-plugins-icon-container">
+                    <input type="text" name="wifes_middle_name" id="wifes-middle-name"
+                        class="form-control form-control-lg form-control-solid" placeholder="Wife's Middle Name" value="">
+                    <div class="fv-plugins-message-container invalid-feedback"></div>
+                </div>
+
+                <div class="col-lg-12 fv-row fv-plugins-icon-container">
+                    <input type="text" name="wifes_last_name" id="wifes-last-name"
+                        class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Wife's Last Name"
+                        value="">
+                    <div class="fv-plugins-message-container invalid-feedback"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- <hr> -->
+    <div class="row mb-6">
+        <label class="col-lg-4 col-form-label required fw-semibold fs-6">Place of Marriage</label>
 
         <div class="col-lg-8 fv-row fv-plugins-icon-container">
-            <input type="text" name="birth_place" id="birth-place"
-                class="form-control form-control-lg form-control-solid" placeholder="Place of Birth"
+            <input type="text" name="place_of_marriage" id="place-of-marriage"
+                class="form-control form-control-lg form-control-solid" placeholder="Place of Marriage"
                 value="">
             <div class="fv-plugins-message-container invalid-feedback"></div>
         </div>
     </div>
-    <hr>
+    <!-- <hr> -->
     <div class="row mb-6">
-        <label class="col-lg-4 col-form-label required fw-semibold fs-6">Date of Birth</label>
+        <label class="col-lg-4 col-form-label required fw-semibold fs-6">Date of Marriage</label>
 
         <div class="col-lg-8 fv-row">
-            <input type="date" name="birth_date" id="birth-date"
-                class="form-control form-control-lg form-control-solid" placeholder="Date of Birth"
+            <input type="date" name="date_of_marriage" id="date-of-marriage"
+                class="form-control form-control-lg form-control-solid" placeholder="Date of Marriage"
                 value="">
         </div>
     </div>
-    <hr>
-    <div class="row mb-6">
-        <label class="col-lg-4 col-form-label required fw-semibold fs-6">Mother's Maiden Name:</label>
 
-        <div class="col-lg-8">
-            <div class="row">
-                <div class="col-lg-12 fv-row fv-plugins-icon-container">
-                    <input type="text" name="last_name" id="last-name"
-                        class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Last Name"
-                        value="">
-                    <div class="fv-plugins-message-container invalid-feedback"></div>
-                </div>
+    <div class="separator my-10"></div>
 
-                <div class="col-lg-12 fv-row fv-plugins-icon-container">
-                    <input type="text" name="first_name" id="first-name"
-                        class="form-control form-control-lg form-control-solid" placeholder="First Name" value="">
-                    <div class="fv-plugins-message-container invalid-feedback"></div>
-                </div>
-                <div class="col-lg-12 fv-row fv-plugins-icon-container">
-                    <input type="text" name="middle_name" id="middle-name"
-                        class="form-control form-control-lg form-control-solid" placeholder="Middle Name" value="">
-                    <div class="fv-plugins-message-container invalid-feedback"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <div class="row mb-6">
-        <label class="col-lg-4 col-form-label required fw-semibold fs-6">Father's Name</label>
-
-        <div class="col-lg-8">
-            <div class="row">
-                <div class="col-lg-12 fv-row fv-plugins-icon-container">
-                    <input type="text" name="last_name" id="last-name"
-                        class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Last Name"
-                        value="">
-                    <div class="fv-plugins-message-container invalid-feedback"></div>
-                </div>
-
-                <div class="col-lg-12 fv-row fv-plugins-icon-container">
-                    <input type="text" name="first_name" id="first-name"
-                        class="form-control form-control-lg form-control-solid" placeholder="First Name" value="">
-                    <div class="fv-plugins-message-container invalid-feedback"></div>
-                </div>
-                <div class="col-lg-12 fv-row fv-plugins-icon-container">
-                    <input type="text" name="middle_name" id="middle-name"
-                        class="form-control form-control-lg form-control-solid" placeholder="Middle Name" value="">
-                    <div class="fv-plugins-message-container invalid-feedback"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
     <div class="row mb-6">
         <label class="col-lg-4 col-form-label required fw-semibold fs-6">Requester:</label>
 
         <div class="col-lg-8 fv-row">
-            <input type="text" name="requester" id="requester"
-                class="form-control form-control-lg form-control-solid" placeholder="Requester" value="">
+            <select class="form-select form-control form-control-solid" aria-label="Default select example" name="requester" required="">
+                <option selected="" value="" disabled>Requester</option>
+                <option value="1">Document Owner</option>
+                <option value="2">Spouse</option>
+                <option value="3">Parent</option>
+                <option value="3">Sons/Daughters</option>
+                <option value="3">Authorized Representative of the Owner</option>
+            </select>
+            <div class="form-text text-end">
+                If the requester is not the document owner him/herself, they must provide an authorization letter upon taking the requested document.
+            </div>
         </div>
     </div>
-    <hr>
+    <!-- <hr> -->
     <div class="row mb-6">
         <label class="col-lg-4 col-form-label required fw-semibold fs-6">Purpose:</label>
 
@@ -144,16 +133,15 @@
                 class="form-control form-control-lg form-control-solid" placeholder="Purpose" value="">
         </div>
     </div>
-    <hr>
+    <!-- <hr> -->
     <div class="row mb-8">
-        <label class="col-lg-4 col-form-label required fw-semibold fs-6">Remarks:</label>
+        <label class="col-lg-4 col-form-label fw-semibold fs-6">Remarks:</label>
 
         <div class="col-lg-8 fv-row">
-            <input type="text" name="remarks" id="remarks"
-                class="form-control form-control-lg form-control-solid" placeholder="Remarks" value="">
+            <textarea name="remarks" id="remarks" class="form-control form-control-lg form-control-solid w-100" rows="5" placeholder="Remarks..."></textarea>
         </div>
     </div>
-    <hr>
+    <!-- <hr> -->
 
 
         <!--=================================================== END OF YOUR CODE ==============================================-->
@@ -174,8 +162,8 @@
             </span>
 
             <div class="d-flex flex-column">
-                <h4 class="mb-1 text-primary">This is an alert</h4>
-                <span>Note: Requester (in hierarchical order) can either be the document owner, spouse of owner (if married), with authorization letter - parent, sons/daughters or an authorized representative of the owner.</span>
+                <h4 class="mb-1 text-primary">Note: </h4>
+                <span>Requester can either be the document owner, spouse of owner (if married), with authorization letter - parent, sons/daughters or an authorized representative of the owner.</span>
             </div>
         </div>
 
