@@ -1,4 +1,4 @@
-<?php include 'layouts/_header.php' ?>
+<?php include '../layouts/_header.php' ?>
 <div class="form-header-sticky bg-white py-2">
     <div class="d-flex">
         <div class="d-flex align-items-center">
@@ -155,4 +155,4 @@
     </div>
 
 </form>
-<?php include 'layouts/_footer.php' ?>
+<?php include '../layouts/_footer.php' ?>
